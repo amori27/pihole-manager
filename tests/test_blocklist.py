@@ -1,4 +1,3 @@
-from pathlib import Path
 from src.core.blocklist import BlocklistManager
 
 
