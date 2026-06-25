@@ -23,7 +23,10 @@ def health():
 
 @app.get("/stats")
 def stats():
-    return get_summary()
+    try:
+        return get_summary()
+    except Exception as e:
+        return {"status": "unavailable", "error": str(e)}
 
 
 @app.post("/blocklist/add")
