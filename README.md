@@ -2,7 +2,7 @@
 
 [![CI/CD](https://github.com/amori27/pihole-manager/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/amori27/pihole-manager/actions)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-compose-blue)]()
 
 > Infrastructure-as-Code management layer for Pi-hole. FastAPI backend with Pi-hole API integration for DNS analytics, dynamic blocklist management, and one-click docker-compose deployment.
